@@ -1,0 +1,19 @@
+{
+    "name": "andig/php-html-parser",
+    "type": "library",
+    "keywords": ["html parser","CSS selector"],
+    "homepage": "https://github.com/andig/php-html-parser",
+    "description": "Refactored repack of https://github.com/hkk12369/php-html-parser",
+    "license": "WTFPL",
+    "autoload": {
+        "psr-0": {
+            "HtmlParser\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    }
+}
