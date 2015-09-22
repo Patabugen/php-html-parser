@@ -7,7 +7,8 @@ A simple and efficient DOMDocument based PHP HTML and XML Parser. It accepts bot
 
 Example:
 ```php
-$html = HtmlParser::from_string('<div id="outer"><span class="red">Some Text</span></div>');
+require __DIR__.'/vendor/autoload.php';
+$html = \HtmlParser\Parser::from_string('<div id="outer"><span class="red">Some Text</span></div>');
 $text = $html->find('#outer .red', 0)->text;
 echo $text;   // outputs "Some Text"
 ```
